@@ -1,0 +1,157 @@
+/*
+Project Name: Relaxr website
+Client: Relaxr
+Author: RaggedDesign - Rachel Girling
+Developer @GA in London
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+	color: #000;
+	line-height: 1.5;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	font-weight: 800;
+	font-size: 24px;
+	position: absolute;
+	top: 10px;
+	left: 40px;
+
+}
+
+h2 {
+	font-weight: 600;
+	font-size: 24px;
+	margin: 20px 0px 20px 0px;
+}
+
+footer {
+	background-color: #121212;
+	text-align: center;
+	padding: 40px 0px 0px 0px;
+}
+
+button {
+	border-radius: 5px;
+	font-weight: 800;
+	font-size: 14px;
+	margin: 20px 0px 20px 0px;
+	padding: 10px 20px 10px 20px;
+	border: none;
+}
+
+button.yellow {
+	background-color: #f9e42e;
+}
+
+button.black {
+	background-color: #121212;
+	color: #f0efef;
+}
+
+p {
+	padding: 20px 0px 20px 0px;
+	font-weight: 300;
+}
+
+li {
+	list-style-type: disc;
+	list-style-position: inside;
+	padding: 0px 140px 0px 40px;
+	font-weight: 300;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+	max-width: 90%;
+  	margin: 0 auto;
+  	width: 1024px;
+  	text-align: center;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.intro {
+	background: url("../images/header_bg.jpg") no-repeat center top rgb(134,141,157);
+	background-size: cover;
+	color: #f0efef;
+	padding: 50px 0px 200px 0px;
+}
+
+.benefits {
+	background-color: #f0efef;
+	padding: 40px 80px 40px 80px; 
+}
+
+.testimonial {
+	background: url("../images/testimonial_bg.jpg") no-repeat center top rgb(134,141,147);
+	background-size: cover;
+	color: #f0efef;
+	text-align: center;
+	padding: 40px 80px 40px 80px;
+}
+
+.banner {
+	background-color: #f9e42e;
+}
+
+.social {
+	padding: 20px 0px 20px 0px;
+}
+
+.social a {
+	margin: 0px 10px;
+}
+
+#relaxr {
+	color: #f9e42e;
+	font-weight: 800;
+}
+
+#quote {
+	font-style: italic;
+	padding: 0px;
+}
+
+#name {
+	font-size: 16px;
+	margin: 0px;
+}
+
+#copyright {
+	color: #f0efef;
+	font-weight: 400;
+	font-size: 12px;
+}
